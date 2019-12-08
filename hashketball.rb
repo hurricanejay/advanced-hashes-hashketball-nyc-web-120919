@@ -176,4 +176,5 @@ def player_numbers(team_name)
  
  def player_stats(players_name)
    result = {}
-   game_hash.map do |
+   game_hash.map do |place, team|
+     
