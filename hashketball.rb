@@ -153,7 +153,13 @@ end
 end
 
 def players_numbers(team_name)
-  
+  game_hash.each do |place, team|
+    if team[:players] == players
+      return team[:number]
+    end
+  end
+end
+
 
 
 
