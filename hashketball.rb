@@ -175,6 +175,7 @@ def player_numbers(team_name)
  end
  
  def player_stats(players_name)
-   result = {}
-   game_hash.map do |place, team|
+   new_hash = {}
+   game_hash.each do |place, team|
+     team
      
