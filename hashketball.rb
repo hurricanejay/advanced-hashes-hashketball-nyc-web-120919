@@ -178,6 +178,7 @@ def player_numbers(team_name)
    new_hash = {}
    game_hash.each do |place, team|
      team.each do |attribute, data|
-       if attribute == players
+       if attribute == :players
+         
          
      
