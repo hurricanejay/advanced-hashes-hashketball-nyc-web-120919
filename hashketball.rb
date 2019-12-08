@@ -181,7 +181,7 @@ def player_numbers(team_name)
        if attribute == :players
          data.each do |player|
            if [:player_name] == players_name
-             new_hash = player.delete_if 
+             new_hash = player.delete_if do |k,v|
           end
          end
       end
