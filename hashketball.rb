@@ -1,4 +1,5 @@
 # Write your code here!
+require 'pry'
 def game_hash
  	{
      :away => { :team_name => "Charlotte Hornets",
@@ -145,8 +146,7 @@ end
 def team_colors(team_name)
   #returns an array of team's colors
     game_hash.each do |place, team|
-team.each do |attribute, data|
-if attribute == :team_colors
+binding.pry
 end
 end
 end
