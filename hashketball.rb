@@ -152,7 +152,8 @@ end
 end
 end
 
-def team_names()
+def team_names
+  game_hash.map 
 
 def players_numbers(team_name)
   game_hash.map do |place, team|
