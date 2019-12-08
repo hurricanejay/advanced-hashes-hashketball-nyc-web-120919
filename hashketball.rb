@@ -182,7 +182,7 @@ def player_numbers(team_name)
          data.each do |player|
            if [:player_name] == players_name
              new_hash = player.delete_if do |k,v|
-               k == 
+               k == :player_name
           end
          end
       end
