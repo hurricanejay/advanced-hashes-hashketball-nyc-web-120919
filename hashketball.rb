@@ -181,9 +181,12 @@ def player_numbers(team_name)
        if attribute == :players
          data.each do |player|
            if [:player_name] == players_name
-     end
-   end
- end
+             new_hash << 
+          end
+         end
+      end
+    end
+  end
  end
  
          
