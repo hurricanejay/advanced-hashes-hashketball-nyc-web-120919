@@ -14,7 +14,7 @@ def game_hash
                    :blocks => 7,
                    :slam_dunks => 2
                   },
-                 {:player_name => "Bismack Biyombo",
+                 {:player_name => "Bismak Biyombo",
                    :number => 0,
                    :shoe => 16,
                    :points => 12,
