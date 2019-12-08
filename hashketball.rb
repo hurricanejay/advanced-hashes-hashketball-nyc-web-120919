@@ -154,7 +154,9 @@ end
 
 def team_names
   game_hash.map do |place, team|
-    return team[]
+    return team[:team_name]
+  end
+end
 
 def players_numbers(team_name)
   game_hash.map do |place, team|
